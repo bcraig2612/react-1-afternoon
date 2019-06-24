@@ -7,7 +7,7 @@ import FilterString from '../Topics/FilterString'
 import Palindrome from '../Topics/Palindrome'
 import Sum from '../Topics/Sum'
 
-export default class TopicBrowser extends Component {
+class TopicBrowser extends Component {
   render() {
     return (
       <div>
@@ -20,3 +20,4 @@ export default class TopicBrowser extends Component {
     )
   }
 }
+export default TopicBrowser;
